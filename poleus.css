@@ -41,3 +41,12 @@
 	
 	--version1_0_5:					none;						/* DO NOT CHANGE THIS VARIABLE , USED TO HIDE UPDATE NOTICE														*/
 }
+body::after {
+  content: "BasicBackground by Poleus" !important;
+  position: fixed;
+  bottom: 5px;
+  left: 10px;
+  font-size: 12px;
+  opacity: 0.4;
+  z-index: 9999;
+}
