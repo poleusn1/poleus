@@ -7790,36 +7790,23 @@ html:only-child > head + body div.app_a3002d > div.app__160d8::before {
 
 /* ~~~~		20.		WATERMARK					~~~~ */
 
-.bar_c38106 .title_c38106 {
-	position: static !important;
-	margin-left: calc(50% - calc(var(--custom-guild-list-width) + var(--space-8))) !important;
+div.info__2debe::before {
+    content: "Poleus" !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    color: white !important;
+    display: inline !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    position: relative !important;
 }
 
-html:only-child > head + body div.bar_c38106 > div.title_c38106::before {
-	content: "" !important;
-	display: none !important;
-}
-
-html:only-child > head + body div.bar_c38106 > div.title_c38106::after {
-	content: "" !important;
-	display: none !important;
-}
-
-html:only-child > head + body div.app_a3002d > div.app__160d8 > div.layers__960e4.layers__160d8 > div.layer__960e4.baseLayer__960e4 + div.layer__960e4 > div.standardSidebarView__23e6b > div.sidebarRegion__23e6b > div.sidebarRegionScroller__23e6b.thin_d125d2.scrollerBase_d125d2.fade_d125d2 > nav.sidebar__23e6b > div.side_b3f026 div.info__2debe::after {
-	content: "By" !important;
-	font-size: 12px !important;
-	color: var(--text-muted) !important;
-	display: inline !important;
-	visibility: visible !important;
-	position: relative !important;
-}
-
-html:only-child > head + body div.app_a3002d > div.app__160d8 > div.layers__960e4.layers__160d8 > div.layer__960e4.baseLayer__960e4 + div.layer__960e4 > div.standardSidebarView__23e6b > div.sidebarRegion__23e6b > div.sidebarRegionScroller__23e6b.thin_d125d2.scrollerBase_d125d2.fade_d125d2 > nav.sidebar__23e6b > div.side_b3f026 div.info__2debe::before {
-	content: "Poleus" !important;
-	font-size: 12px !important;
-	font-weight: 600 !important;
-	color: rgb(var(--accentcolor_v)) !important;
-	display: inline !important;
-	visibility: visible !important;
-	position: relative !important;
+div.info__2debe::after {
+    content: "By" !important;
+    font-size: 12px !important;
+    color: white !important;
+    display: inline !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    position: relative !important;
 }
