@@ -7790,14 +7790,30 @@ html:only-child > head + body div.app_a3002d > div.app__160d8::before {
 
 /* ~~~~		20.		WATERMARK					~~~~ */
 
-html:only-child > head + body div.bar_c38106 > div.title_c38106::before {
-	content: "Poleus" !important;
-	background: none !important;
-	-webkit-mask: none !important;
-	width: auto !important;
-	height: auto !important;
-	font-size: 18px !important;
-	color: rgba(var(--textbrightest_v), 1) !important;
-	padding-left: 10px;
+.bar_c38106 .title_c38106::before {
+    content: none !important;
+    display: none !important;
+    background: none !important;
+    -webkit-mask: none !important;
+    mask: none !important;
 }
 
+.bar_c38106 .title_c38106 {
+    background: none !important;
+    -webkit-mask: none !important;
+    mask: none !important;
+    box-shadow: none !important;
+    filter: none !important;
+}
+
+html:only-child > head + body div.bar_c38106 > div.title_c38106::before {
+    content: "" !important;
+    background: rgba(var(--textbrightest_v), .4) !important;
+    -webkit-mask: url('...') center/contain no-repeat !important;
+    position: fixed !important;
+    left: 10px !important;
+    top: 10px !important;
+    width: 70px !important;
+    height: 36px !important;
+    z-index: 9999 !important;
+}
